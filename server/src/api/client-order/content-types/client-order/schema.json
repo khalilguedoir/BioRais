@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_orders",
+  "info": {
+    "singularName": "client-order",
+    "pluralName": "client-orders",
+    "displayName": "client-order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "orders": {
+      "type": "json"
+    }
+  }
+}
